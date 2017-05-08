@@ -16,5 +16,10 @@ To start the container simply enter:
 docker run -d -p 5000:5000 -e API_KEY=YOUR_API_KEY YOUR_TAG
 ```
 
-This binds the container to port 5000 with your [Algorithmia](https://algorithmia.com) api key
+This binds the container to port 5000 with your [Algorithmia](https://algorithmia.com) api key.
+
+Otherwise you could simply use the pre-built `k4l4m/colorizer` image:
+```
+docker run -d -p 5000:5000 -e API_KEY=YOUR_API_KEY k4l4m/colorizer
+```
 
