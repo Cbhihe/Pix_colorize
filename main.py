@@ -1,11 +1,16 @@
 import base64
 import Algorithmia
+import os
 
 from flask import Flask, request
 app = Flask(__name__, static_url_path='')
 
 
-client = Algorithmia.client("simldrgKVUwcH5QWpi+c/j6w78z1") 
+api_key = os.environ.get('API_KEY')
+if api_key is None:
+   raise Exception("Environment variable API_KEY is not set.")
+
+client = Algorithmia.client(api_key) 
 algo = client.algo('deeplearning/ColorfulImageColorization/1.1.5')
 
 def process_image(image_base64):
@@ -27,4 +32,4 @@ def image():
    return get_image_base64(client.file(result['output']).getFile())
 
 if __name__ == '__main__':
-   app.run()   
+   app.run(host='0.0.0.0')   
