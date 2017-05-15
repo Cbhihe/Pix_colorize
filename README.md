@@ -1,4 +1,4 @@
-# Image colorizer using Algorithmia' API
+# Image colorizer using Algorithmia's API
 
 This project uses [Algorithmia](https://algorithmia.com) to colorize pictures. 
 
@@ -11,12 +11,13 @@ Permission to fork or copy the code is hereby granted, provided that:
   - you cite Toni Pohl as the original author of the forked code.
 
 
-# Build Docker image and start container
-To build the image just run this the project directory:
+#How to:
+### Build a Docker image and start a container
+To build the image just run this in the project directory:
 ```
     docker build -t YOUR_TAG
 ```
-whereas `YOUR_TAG` is the name for your image.
+whereas `YOUR_TAG` is the name of the black and white image to colorize.
 
 
 To start the container simply enter:
