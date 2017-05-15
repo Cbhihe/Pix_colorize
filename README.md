@@ -1,12 +1,20 @@
-# Image colorizer using Algorithmia
-This project used [Algorithmia](https://algorithmia.com) to colorize pictures. 
-For the backend [Flask](http://flask.pocoo.org) is used and the frontend is build with [AngularJS](https://angularjs.org) and [Bootstrap](http://getbootstrap.com).
-This project is part of the MIRI Master of the UPC Barcelona.
+# Image colorizer using Algorithmia' API
+
+This project uses [Algorithmia](https://algorithmia.com) to colorize pictures. 
+
+[Flask](http://flask.pocoo.org) was chosen as backend because it is lightweight.
+The frontend was build with [AngularJS](https://angularjs.org) and [Bootstrap](http://getbootstrap.com).
+Toni Pohl wrote the backend and frontend code in a couple of hours, at the time he was a student enrolled in the MIRI Master Program at UPC in Barcelona, Spain. 
+
+Permission to fork or copy the code is hereby granted, provided that:
+  - you always mention that it is a fork from repo https://github.com/k4l4m/CLC-Project-Colorize.git
+  - you cite Toni Pohl as the original author of the forked code.
+
 
 # Build Docker image and start container
 To build the image just run this the project directory:
 ```
-docker build -t YOUR_TAG .
+    docker build -t YOUR_TAG .
 ```
 whereas `YOUR_TAG` is the name for your image.
 
