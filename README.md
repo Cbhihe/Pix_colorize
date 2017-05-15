@@ -14,7 +14,7 @@ Permission to fork or copy the code is hereby granted, provided that:
 # Build Docker image and start container
 To build the image just run this the project directory:
 ```
-    docker build -t YOUR_TAG .
+    docker build -t YOUR_TAG
 ```
 whereas `YOUR_TAG` is the name for your image.
 
