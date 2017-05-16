@@ -11,7 +11,7 @@ Permission to fork or copy the code is hereby granted, provided that:
   - you cite Toni Pohl as the original author of the forked code.
 
 
-#How to:
+## Quick start:
 ### Build a Docker image and start a container
 To build the image just run this in the project directory:
 ```
