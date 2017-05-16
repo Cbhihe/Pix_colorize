@@ -11,6 +11,9 @@ Permission to fork or copy the code is hereby granted, provided that:
   - you cite Toni Pohl as the original author of the forked code.
 
 
+## Slow start:
+A step by step guide is included in this repo: pixColor_manual.pdf
+
 ## Quick start:
 ### Build a Docker image and start a container
 To build the image just run this in the project directory:
