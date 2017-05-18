@@ -22,13 +22,14 @@ def process_image(image_base64):
 def get_image_base64(image_file):   # image encode base64
    return "data:image/jpeg;base64," + base64.b64encode(image_file.read())
 
-@app.route('/', methods=['GET'])    # only accessed upon loading the flask site frontend
+@app.route('/', methods=['GET'])    # decorator
+# only accessed upon loading the flask site frontend
 # GET received by backend when frontend is loaded
 def root():
    return app.send_static_file('index.html')
 
-@app.route('/image', methods=['POST']) # invoked when the static initial 
-# (black and white) file is passed to backend ...
+@app.route('/image', methods=['POST']) # decorator
+# invoked when the static initial (black and white) file is passed to backend ...
 def image():
    result = process_image(request.data);  # flask magic here ! 
    # "data" is an attribute of the "resquest" object in flask
