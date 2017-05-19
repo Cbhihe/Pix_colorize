@@ -16,19 +16,20 @@ A step by step guide is included in this repo: pixColor_manual.pdf
 
 ## Quick start:
 ### Build a Docker image and start a container
-To build the image just run this in the project directory:
+Your project directory should contain the Dockerfile for the container to be built.
+To build the Docker comtainer image just run this in the project directory:
 ```
     docker build -t YOUR_TAG
 ```
-whereas `YOUR_TAG` is the name of the black and white image to colorize.
+whereas `YOUR_TAG` is the name of the black&white or grayscale image to colorize.
 
 
 To start the container simply enter:
 ```
 docker run -d -p 5000:5100 -e API_KEY=YOUR_API_KEY YOUR_TAG
 ```
-where 5000 is the flask server's default communication port(Backend) and 5100 is the chosen port on the container side. 
-This binds the container port 5100 with your [Algorithmia](https://algorithmia.com) api key.
+where 5000 is the flask server (Backend)'s default communication port and 5100 is the chosen port on the container side. 
+This mapping also binds the container port 5100 with your [Algorithmia](https://algorithmia.com) api key.
 
 Otherwise you could simply use the pre-built `k4l4m/colorizer` image:
 ```
