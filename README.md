@@ -25,13 +25,13 @@ whereas `YOUR_TAG` is the name of the black and white image to colorize.
 
 To start the container simply enter:
 ```
-docker run -d -p 5000:5000 -e API_KEY=YOUR_API_KEY YOUR_TAG
+docker run -d -p 5000:5100 -e API_KEY=YOUR_API_KEY YOUR_TAG
 ```
-
-This binds the container to port 5000 with your [Algorithmia](https://algorithmia.com) api key.
+where 5000 is the flask server's default communication port(Backend) and 5100 is the chosen port on the container side. 
+This binds the container port 5100 with your [Algorithmia](https://algorithmia.com) api key.
 
 Otherwise you could simply use the pre-built `k4l4m/colorizer` image:
 ```
-docker run -d -p 5000:5000 -e API_KEY=YOUR_API_KEY k4l4m/colorizer
+docker run -d -p 5000:5100 -e API_KEY=YOUR_API_KEY k4l4m/colorizer
 ```
 
