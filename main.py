@@ -55,6 +55,6 @@ def image():
 # to be base64 encoded by frontend.
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    APP.run(host='0.0.0.0')
     # not just processes in container but any host incl localhost (127.0.0.1)
     # can access the website served by flask.
