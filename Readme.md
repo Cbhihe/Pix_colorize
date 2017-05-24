@@ -13,7 +13,7 @@ Permission to fork or copy the code is hereby granted, provided that:
 
 
 ## Slow start:
-A step by step guide is included in this repo: pixColor_manual.pdf
+A step by step guide is included in this repo: Manual.pdf
 
 ## Quick start:
 ### Build a Docker image and start a container
