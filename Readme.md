@@ -22,8 +22,8 @@ To build the Docker comtainer image just run this in your project directory:
 ```
     docker build -t CONTAINER_NAME:CONTAINER_TAG
 ```
-where `CONTAINER_NAME" and "CONTAINER_TAG` are chosen by user (lowercase
-only); e.g. "colorize_me:dockerfile"
+where "CONTAINER_NAME" and "CONTAINER_TAG" are chosen by user (lowercase
+only); e.g. _colorize_me:dockerfile_
 
 
 To start the container simply enter:
