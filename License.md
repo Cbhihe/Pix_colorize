@@ -15,11 +15,6 @@ library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.**
 #
 #
-#
-============================================================================
-#
-#
-#
 #                 GNU GENERAL PUBLIC LICENSE
 ###                    Version 2, June 1991
 
@@ -299,10 +294,7 @@ PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGES.
 
 ###                  END OF TERMS AND CONDITIONS
-
-==========================================================================
-#
-#
+# ===========================================
 #
 #
 
@@ -312,23 +304,24 @@ If you develop a new program, and you want it to be of the greatest
 possible use to the public, the best way to achieve this is to make it
 free software which everyone can redistribute and change under these terms.
 
-To do so, attach the following notices to the program.  It is safest
-to attach them to the start of each source file to most effectively
-convey the exclusion of warranty; and each file should have at least
-the "copyright" line and a pointer to where the full notice is found.
+To do so, attach the following notices to the program:
+**>** nclude them at the top of each source file to most effectively
+convey the exclusion of warranty. 
+**>** Each file should have at least the "Copyright" line and a pointer to
+where the full notice is found.
 
-[one line to give the program's name and a brief idea of what it does.]
-    ***Copyright (C) <year>  <name of author>***
+**Example:**
+_[one line to give the program's name and a brief idea of what it does.]_
+       Copyright (C) [1946]   by   [Alan Turing]
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 2 of the License, or (at your option) any later
+version.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along
 with this program; if not, write to the Free Software Foundation, Inc.,
