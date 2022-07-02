@@ -4,7 +4,7 @@ This project uses [Algorithmia](https://algorithmia.com) to colorize pictures.
 
 [Flask](http://flask.pocoo.org) was chosen as backend because it is lightweight.
 The frontend was build with [AngularJS](https://angularjs.org) and [Bootstrap](http://getbootstrap.com).
-Toni Pohl wrote the backend and frontend code, at the time he was enrolled in the MIRI Master Program at UPC in Barcelona, Spain. 
+Toni Pohl contributed most of this code code, as he was enrolled in the MIRI CS Master program at UPC in Barcelona, Spain. 
 
 Permission to fork or copy the code is hereby granted, provided that:
   - you always mention that it is a fork from repo https://github.com/k4l4m/CLC-Project-Colorize.git
