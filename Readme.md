@@ -1,9 +1,15 @@
-## Image colorizer using Algorithmia's API
+﻿## Image colorizer using Algorithmia's API
 
-- This project uses [Algorithmia](https://algorithmia.com) to colorize pictures.
-- [Flask](http://flask.pocoo.org) was chosen as backend because it is lightweight.
-The frontend was build with [AngularJS](https://angularjs.org) and [Bootstrap](http://getbootstrap.com).
-Toni Pohl contributed most of that code, as we were both enrolled in the MIRI CS Master program at UPC in Barcelona, Spain.
+- This project uses [Algorithmia](https://algorithmia.com) to automatically colorize pictures., based on a pre-trained color model.
+- [Flask](http://flask.pocoo.org) was chosen as backend to interact with the local server rendering the picture in your host’s favorite navigator because it is lightweight.
+
+![output-examples.png](attachment:output-examples.png)
+
+The frontend was build with [AngularJS](https://angularjs.org) and [Bootstrap](http://getbootstrap.com). Toni Pohl contributed most of that code, as we were both enrolled in the MIRI CS Master program at UPC in Barcelona, Spain.
+
+
+![wsgi-architecture.png](attachment:wsgi-architecture.png)
+
 
 ### Slow start:
 A step by step guide is included in this repo: see Manual.pdf
@@ -33,6 +39,4 @@ docker run -d -p 8080:5000 -e API_KEY=YOUR_API_KEY k4l4m/colorizer
 ```
 
 ### Short Licensing terms:
-You can use the code as you please pursuant to the Licensing terms provided in this 
-repo. In particular you can distribute the content of this repo as long as you distribute 
-the afore mentioned license with it.
+You can use the code as you please pursuant to the Licensing terms provided in this repo. In particular you can distribute the content of this repo as long as you distribute the afore-mentioned license with it and you mention its two authors.
