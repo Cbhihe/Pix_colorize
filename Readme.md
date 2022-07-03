@@ -3,7 +3,7 @@
 - This project uses [Algorithmia](https://algorithmia.com) to automatically colorize pictures., based on a pre-trained color model.
 - [Flask](http://flask.pocoo.org) was chosen as backend to interact with the local server rendering the picture in your host’s favorite navigator because it is lightweight.
 
-![output-examples.png](https://github.com/Cbhihe/Pix_colorize/blob/main/output-example.png?raw=true)
+![output-examples.png](https://github.com/Cbhihe/Pix_colorize/blob/main/output-examples.png?raw=true)
 
 The frontend was build with [AngularJS](https://angularjs.org) and [Bootstrap](http://getbootstrap.com). Toni Pohl contributed most of that code, as we were both enrolled in the MIRI CS Master program at UPC in Barcelona, Spain.
 
