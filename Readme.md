@@ -1,22 +1,16 @@
-# Image colorizer using Algorithmia's API
+## Image colorizer using Algorithmia's API
 
-This project uses [Algorithmia](https://algorithmia.com) to colorize pictures. 
-
-[Flask](http://flask.pocoo.org) was chosen as backend because it is lightweight.
+- This project uses [Algorithmia](https://algorithmia.com) to colorize pictures.
+- [Flask](http://flask.pocoo.org) was chosen as backend because it is lightweight.
 The frontend was build with [AngularJS](https://angularjs.org) and [Bootstrap](http://getbootstrap.com).
-Toni Pohl contributed most of this code, when enrolled as an Erasmus student in the MIRI CS Master program at UPC in Barcelona, Spain. 
+Toni Pohl contributed most of that code, as we were both enrolled in the MIRI CS Master program at UPC in Barcelona, Spain.
 
-Permission to fork or copy the code is hereby granted, provided that:
-  - you always mention that it is a fork from repo https://github.com/k4l4m/CLC-Project-Colorize.git
-  - you cite Toni Pohl as the original author of the forked code.
-  - you distribute this repo along with its original License.md file
+### Slow start:
+A step by step guide is included in this repo: see Manual.pdf
 
+### Quick start:
 
-## Slow start:
-A step by step guide is included in this repo: Manual.pdf
-
-## Quick start:
-### Build a Docker image and start a container
+#### Build a Docker image and start a container
 Your project directory should contain the Dockerfile for the container to be built.
 To build the Docker comtainer image just run this in your project directory:
 ```
@@ -37,3 +31,8 @@ Otherwise you could simply use the pre-built `k4l4m/colorizer` image:
 ```
 docker run -d -p 8080:5000 -e API_KEY=YOUR_API_KEY k4l4m/colorizer
 ```
+
+### Short Licensing terms:
+You can use the code as you please pursuant to the Licensing terms provided in this 
+repo. In particular you can distribute the content of this repo as long as you distribute 
+the afore mentioned license with it.
